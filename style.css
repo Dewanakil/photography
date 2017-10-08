@@ -1,0 +1,251 @@
+*
+{
+    font-family: 'Montserrat', sans-serif !important;
+}
+.fluid_margin_padding
+{
+    margin-left:0% !important;
+    margin-right: 0% !important;
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+}
+.container_margin_padding
+{
+ 
+}
+
+/*Whole nav div*/
+.navbar-default {
+    background-color:#3e3c39  !important;
+    border: none !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    position: fixed !important;
+    z-index: 1;
+    width: 100% !important;
+}
+
+/*Brand color*/
+.navbar-default .navbar-brand
+{
+    color: white  !important;
+}
+
+/*Pages color*/
+.navbar-default .navbar-nav>li>a 
+{
+    color: gold  !important;
+}
+/*navbar margin bottom*/
+.navbar 
+{ 
+    margin-bottom: 0px !important; 
+    border-radius: 0px !important;
+   
+}
+/*Awesome multi-concept theme*/
+.heading-block span {
+    font-family: 'Crimson Text', serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #6f6f6f;
+    margin-top: 5px;
+    display: inline-block;
+    width: 100%;
+    font-style: italic;
+}
+.heading-block h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.heading-block p {
+    font-family: inherit;
+    font-weight: 400;
+    color: #6f6f6f;
+    line-height: 30px;
+    text-rendering: optimizeLegibility;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+}
+.concept
+{
+    margin-top: 10%;
+}
+/*Our work*/
+.heading-block h3 
+{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 15%;
+    margin-bottom: 15px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #141414;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.1;
+    text-align: center;
+}
+.divider.divider-center 
+{
+    text-align: center;
+}
+.divider 
+{
+    color: #e5e5e5;
+    margin: 1.07143rem 0;
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+    width: 100%;
+    line-height: 1.42857143;
+}
+/*button*/
+.mybtnstyle 
+{
+  
+    padding: 12px 12px!important;
+    font-size: 12px !important;
+    
+   
+}
+.buttonp p 
+{
+    margin: 0 0 0px !important;
+
+
+}
+
+/*images gellary*/
+
+
+/*ULTRA SERVICES & BEST SUPPORT*/
+.hrtag {
+    border: none;
+    height: 1px;
+    width: 72px;
+    background: #141414;
+    margin: 0px;
+    margin-top: 0px;
+     margin-bottom: 0px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+/*SERVICES*/
+.why-choose
+{
+    margin-top: 5%  !important;
+}
+.why-choose p
+{
+    font-family: inherit;
+    font-weight: 400;
+    color: #6f6f6f;
+    text-rendering: optimizeLegibility;
+    font-size: 13px;
+    letter-spacing: 0px;
+}
+.why-choose h4
+{
+    font-size: 14px;
+    margin: 18px 0px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/*background*/
+.backgroundimg
+{
+    background: url(assets/image/bg-parallax-1.png) no-repeat center center fixed; 
+    height: 300px;
+    width: 100%; 
+    background-size: cover;
+    margin-top: 5%;
+}
+.number
+{
+    display: block;
+    font-size: 48px;
+    color: #a99e9e;
+    text-align: center;
+    padding-top: 38%;
+  
+}
+.backgroundimg h5
+{
+    font-family: "Crimson Text", Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #8e806b;
+    margin-top: 10px;
+    text-align: center;
+}
+.hrtag2 {
+    border: none;
+    height: 3px;
+    width: 72px;
+    background: gray;
+    margin: 0px;
+    margin-top: 10px !important;
+     margin-bottom: 0px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    margin: auto;
+}
+
+/*Our team*/
+.impadtop
+{
+    padding-top: 90px;
+}
+.team-desc {
+    background-color: transparent;
+    border-top: 2px solid #ededed;
+    color: #FFFFFF;
+    bottom: 0;
+    display: block;
+    left: 15;
+    padding: 1rem 1.42857rem;
+    position: absolute;
+    width: 95%;
+    z-index: 0;
+}
+.team-title h4
+{
+    color: #fff;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 10px 0px;
+    text-transform: uppercase;
+}
+.team-title span {
+    color: #fff;
+    display: block;
+    font-family: "Crimson Text", Georgia, Cambria, "Times New Roman", Times, serif;
+    font-style: italic;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+/*What client say*/
+.testimonial.style-1 .testi
+{
+    text-align: center;
+}
+.testimonial .slides {
+    margin-top: 200px;
+    position: absolute;
+    width: 100%;
+}
+
+
+
+
