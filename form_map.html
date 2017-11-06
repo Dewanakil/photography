@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>form</title>
+	 <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/animate.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+   
+</head>
+
+
+<body>
+   
+   
+<div class="container-fluid fluid_margin_padding">
+<div class="row fluid_margin_padding">
+<div class="col-md-12 fluid_margin_padding">
+   
+ 
+    
+        <!--Navigation bar-->
+    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse nav_background" role="navigation">
+        <div class="container-fluid">
+           <div class="row">
+             <div class="col-md-3 col-xs-12">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <img style="padding-top:10px;margin-left:22%;" class="img-responsive" src="assets/image/logo.png">
+                </div>
+             </div>
+            <div class="col-md-7 col-xs-12">
+                <div class="collapse navbar-collapse" id="nav-collapse">
+                    <ul class="pull-left nav navbar-nav navbar-right navlist">
+
+                        <li><a href="#home">home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li  class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">protfolio
+                        <span class="caret"></span></a>
+                            <ul class="drop dropdown-menu">
+                              <li><a href="#">home</a></li>
+                              <li><a href="#">About</a></li>
+                              <li><a href="#">price</a></li>
+
+                              <li><a href="#">service</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#service">service</a></li>
+                        <li><a href="#team">team</a></li>
+                        <li><a href="#price">price</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#pages">pages</a></li>    
+                    </ul>
+                 </div> 
+             </div> 
+             <div class="col-md-2 col-xs-12"> 
+                <ul class=" pull-left list-inline navlist">
+
+                    <li><a class="btn btn-social-icon btn-facebook"><span style="font-size:17px" class="fa fa-facebook"></span></a></li>
+
+                    <li><a class="btn btn-social-icon btn-twitter"><span style="font-size:17px"  class="fa fa-twitter"></span></a></li>
+
+                    <li><a class="btn btn-social-icon btn-google"><span style="font-size:17px"  class="fa fa-google"></span></a></li>
+
+
+                 </ul>
+              </div>     
+
+            </div>
+        </div>
+    </nav>
+    
+    
+    
+    
+<!--Map-->
+        <div id="service"  class="container-fluid">
+            <div class="container heading-block">
+                <h3>Map</h3>
+                <div class="divider divider-center ">
+                   <img src="assets/image/hammers.png">
+                    <span style="font-family: 'Crimson Text', serif !important;">
+                       You Can Find Our Location
+                    </span>    
+                </div>        
+            </div>        
+        </div>
+    
+
+    <div style="margin-top:5%" class="container-fluid">
+        <div class="row-fluid">
+            <div class="col-md-12">
+                <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed/v1/place?q=Cyberborg%20Bodyart%2C%20Bangka%2C%20Jakarta%2C%20Indonesia&key=AIzaSyCGz8WzqxQw1OwHWey3LCTjqKFG9feCxP4"></iframe>
+            </div>
+          
+
+        </div>
+    </div>
+
+<!--Address and form-->
+ <div id="service"  class="container-fluid">
+            <div class="container heading-block">
+                <h3>Contact Us</h3>
+                <div class="divider divider-center ">
+                   <img src="assets/image/hammers.png">
+                    <span style="font-family: 'Crimson Text', serif !important;">
+                       Contact Us For Details
+                    </span>    
+                </div>        
+            </div>        
+        </div>
+
+<div style="margin-top:5%"  class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="well well-sm form_back">
+                <form>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="name">
+                                Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
+                        </div>
+                        <div class="form-group">
+                            <label for="email">
+                                Email Address</label>
+                            <div class="input-group">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                                </span>
+                                <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" /></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">
+                                Subject</label>
+                            <select id="subject" name="subject" class="form-control" required="required">
+                                <option value="na" selected="">Choose One:</option>
+                                <option value="service">General Customer Service</option>
+                                <option value="suggestions">Suggestions</option>
+                                <option value="product">Product Support</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="name">
+                                Message</label>
+                            <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                                placeholder="Message"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
+                            Send Me</button>
+                    </div>
+                </div>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <form>
+            <legend><span class="glyphicon glyphicon-globe"></span> Our office</legend>
+            <address>
+                <strong>Twitter, Inc.</strong><br>
+                795 Folsom Ave, Suite 600<br>
+                San Francisco, CA 94107<br>
+                <abbr title="Phone">
+                    P:</abbr>
+                (123) 456-7890
+            </address>
+            <address>
+                <strong>Full Name</strong><br>
+                <a href="mailto:#">first.last@example.com</a>
+            </address>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+    
+    
+    
+    <!--footer -->
+    <div class="container-fluid fluid_margin_padding  footer_background">
+        <div class="container padding-top">
+            <div class="raw">
+                <div class="col-md-4 col-sm-12 ">
+                    <span class="text-pri"><b>Creative Agency from London - UK</b></span>
+                    <br>
+                    <br>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <br>
+                    <img class="img-responsive" src="assets/image/footer_logo_1.png">
+                </div>
+                <div class="col-md-2 col-sm-12 ">
+                    <span class="text-pri1" ><b>INFO</b></span>
+                    <hr class="hrstyle">
+                    <br>
+                    <br>
+                    <ul class="list-group">
+                        <a href="#"><li>Theme Features</li></a>
+                         <br>
+                        <a href="#"><li>Page Builder</li></a>
+                         <br>
+                        <a href="#"><li>Privacy Policy</li></a>
+                         <br>
+                        <a href="#"><li>Shop Rules</li></a>
+                         <br>
+                        <a href="#"><li>Services</li></a>
+                         <br>
+                        <a href="#"><li>Gallery Layout</li></a>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-12 ">
+                    <span class="text-pri1"><b>TWITTER WIDGET</b></span>
+                    <hr class="hrstyle">
+                    <br>
+                    <br>
+                    <p>Looking for an awesome CREATIVE WordPress Theme? Esquise was updated and optimized to run even better.
+                     Find it here:  <a href="#">https://stocksnap.io/photo/</a></p>
+                    <br>
+                    <p>
+                        It is a long established fact that a reader will be distracted by the readable . Find it here: 
+                        <a href="#">https://stocksnap.io/photo/</a>
+                    </p>
+                </div>
+                <div class="col-md-3 col-sm-12 ">
+                    <span class="text-pri1"><b>INSTAGRAM WIDGET</b></span>
+                    <hr class="hrstyle">
+                    <br>
+                    <br>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    <br>
+                    <p>
+                        It is a long established fact that a reader will be distracted by the readable . Find it here: 
+                        <a href="#">https://stocksnap.io/photo/</a>
+                    </p>
+                    
+                </div>
+                <div class="raw">
+                    <div style="padding-top:20px;padding-bottom:5px;" class="col-md-6 col-sm-6">
+                        <p>© 2017 PHOTOGRAPHY website. Designed by Team-fly.</p>
+                    </div>
+                    <div style="padding-top:20px;padding-bottom:5px;" class="col-md-6 col-sm-6">
+                            <div style="float:right;">
+                             <a class="btn btn-social-icon btn-twitter">
+                                <span class="fa fa-twitter">
+                                </span>
+                              </a>
+                               <a class="btn btn-social-icon btn-facebook">
+                                <span class="fa fa-facebook">
+                                </span>
+                              </a>
+                               <a class="btn btn-social-icon btn-youtube">
+                                <span class="fa fa-youtube">
+                                </span>
+                              </a>
+                               <a class="btn btn-social-icon btn-google">
+                                <span class="fa fa-google">
+                                </span>
+                              </a>
+                               <a class="btn btn-social-icon btn-linkedin">
+                                <span class="fa fa-linkedin">
+                                </span>
+                              </a>
+                                <a class="btn btn-social-icon btn-skype">
+                                <span class="fa fa-skype">
+                                </span>
+                              </a> 
+                               <a class="btn btn-social-icon btn-android">
+                                <span class="fa fa-android">
+                                </span>
+                              </a>
+                            </div>  
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>    
+    </div>    
+    
+    
+    
+</div>
+</div>   
+</div>  
+ 
+    
+
+    <script type="text/javascript" src="assets/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/style.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+</body>
+</html>
